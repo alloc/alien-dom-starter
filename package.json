@@ -1,0 +1,21 @@
+{
+	"name": "my-project",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "pnpm -C web dev",
+		"build": "pnpm -C web build",
+		"lint": "pnpm --parallel run lint",
+		"use": "alien-start use",
+		"prepare": "alien-start init && mkdir -p packages"
+	},
+	"devDependencies": {
+		"@types/node": "latest",
+		"alien-start": "latest",
+		"is": "npm:@alloc/is@latest",
+		"lodash": "npm:lodash-es@latest",
+		"prettier": "latest",
+		"type-fest": "latest",
+		"typescript": "latest"
+	}
+}

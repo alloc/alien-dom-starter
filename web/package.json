@@ -1,0 +1,19 @@
+{
+	"name": "@my-project/web",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"lint": "tsc -p . --noEmit"
+	},
+	"dependencies": {
+		"alien-dom": "latest"
+	},
+	"devDependencies": {
+		"@alien-dom/vite": "latest",
+		"vite": "latest",
+		"vite-plugin-webfont-dl": "latest",
+		"vite-tsconfig-paths": "latest"
+	}
+}

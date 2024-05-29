@@ -1,0 +1,19 @@
+{
+	"exclude": ["*.config.ts"],
+	"compilerOptions": {
+		"baseUrl": "./src",
+		"paths": {},
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"jsx": "react-jsx",
+		"jsxImportSource": "alien-dom",
+		"lib": ["dom", "esnext"],
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"noImplicitOverride": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"typeRoots": ["./node_modules/@types"]
+	}
+}
