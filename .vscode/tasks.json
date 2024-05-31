@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"problemMatcher": [],
+			"label": "npm: dev",
+			"detail": "Start the dev server"
+		},
+		{
+			"type": "npm",
+			"script": "build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build",
+			"detail": "Build the project for production"
+		},
+		{
+			"type": "npm",
+			"script": "lint",
+			"problemMatcher": [],
+			"label": "npm: lint",
+			"detail": "Run the type-checker on the entire project"
+		}
+	]
+}

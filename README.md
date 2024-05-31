@@ -38,6 +38,8 @@ Finally, run `pnpm install` to install the dependencies. Note that you will be p
 
 ### Commands
 
+If you're using an IDE like [VS Code](https://code.visualstudio.com/) or [Cursor](https://cursor.sh/), and you prefer to avoid the command line, you can use the `Tasks: Run Task` command with `Command+Shift+P` (the “Command Palette”) so you don't have to remember the following commands.
+
 - To start the development server for your website:
 
   ```sh
