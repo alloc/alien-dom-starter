@@ -3,8 +3,8 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"dev": "pnpm -C web dev",
-		"build": "pnpm -C web build",
+		"dev": "pnpm --parallel run dev",
+		"build": "pnpm -r run build",
 		"lint": "pnpm --parallel run lint",
 		"use": "alien-start use",
 		"prepare": "alien-start init && mkdir -p packages"
