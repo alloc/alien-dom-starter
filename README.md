@@ -30,7 +30,7 @@ To remain widely applicable, this starter project does not include the following
 
 ## Getting Started
 
-From the project page on Github, use this repository as a template to create a new repository in your own account. Then clone the new repository to your local machine.
+From the project page on Github, use this repository as a template to create a new repository in your own account. Then clone the neeb repository to your local machine.
 
 Make sure [PNPM](https://pnpm.io/installation) is installed. You can use `brew install pnpm` if you have Homebrew on your machine. This step is required, because the project is set up as a PNPM workspace.
 
@@ -127,7 +127,7 @@ You can use Google Fonts as normal and they will be served from your own domain 
 For convenience, the `@alloc/is` package comes pre-installed. This is a type guard library that you can use to check the type of a value at runtime. All of its exports are both tree-shakeable and lightweight, so you can use it without worrying about bundle size. Feel free to use it in your project.
 
 ```ts
-// The package is aliased to 'is' in the 'web/package.json' file.
+// The package is aliased to 'is' in the root 'package.json' file.
 import { isFunction } from 'is'
 ```
 
