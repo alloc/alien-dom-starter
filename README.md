@@ -34,7 +34,13 @@ From the project page on Github, use this repository as a template to create a n
 
 Make sure [PNPM](https://pnpm.io/installation) is installed. You can use `brew install pnpm` if you have Homebrew on your machine. This step is required, because the project is set up as a PNPM workspace.
 
-Finally, run `pnpm install` to install the dependencies. Note that you will be prompted to choose a name for your project when running this command for the first time.
+```sh
+# 1. Install the project dependencies.
+pnpm install
+
+# 2. Initialize the project (first time only).
+pnpm alien-start init
+```
 
 ### Commands
 

@@ -6,8 +6,7 @@
 		"dev": "pnpm --parallel run dev",
 		"build": "pnpm -r run build",
 		"lint": "pnpm --parallel run lint",
-		"use": "alien-start use",
-		"prepare": "alien-start init && mkdir -p packages"
+		"use": "alien-start use"
 	},
 	"devDependencies": {
 		"@types/node": "latest",
