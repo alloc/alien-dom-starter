@@ -12,10 +12,7 @@
 	"devDependencies": {
 		"@types/node": "latest",
 		"alien-start": "latest",
-		"is": "npm:@alloc/is@latest",
-		"lodash": "npm:lodash-es@latest",
 		"prettier": "latest",
-		"type-fest": "latest",
 		"typescript": "latest"
 	}
 }

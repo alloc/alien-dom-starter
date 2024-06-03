@@ -121,20 +121,3 @@ Other packages can be created in the `packages` folder (a common convention for 
 The `vite-plugin-webfont-dl` package is used by Vite to automatically download [Google web fonts](https://fonts.google.com/) used in your `web/index.html` file.
 
 You can use Google Fonts as normal and they will be served from your own domain in production. When using Vite's dev server, the fonts are cached locally to enable offline development. From a user perspective, this approach helps with performance and privacy.
-
-#### Type guards
-
-For convenience, the `@alloc/is` package comes pre-installed. This is a type guard library that you can use to check the type of a value at runtime. All of its exports are both tree-shakeable and lightweight, so you can use it without worrying about bundle size. Feel free to use it in your project.
-
-```ts
-// The package is aliased to 'is' in the root 'package.json' file.
-import { isFunction } from 'is'
-```
-
-It's faster to type than using `typeof` because of auto-completion, and it provides many type guards that aren't built into JavaScript (like `isPromiseLike` or `isPlainObject`). Its `isArray` guard is identical to `Array.isArray` except its TypeScript definition actually works with `readonly` array types.
-
-Learn more [here](https://github.com/alloc/is).
-
-#### Utility packages
-
-[Lodash](https://lodash.com/) and [type-fest](https://github.com/sindresorhus/type-fest) are also pre-installed in the workspace's root package. They can be used anywhere in the project. To avoid wasting time writing your own utilities, it's recommended to learn them.

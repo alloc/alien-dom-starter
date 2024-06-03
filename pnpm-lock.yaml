@@ -14,18 +14,9 @@ importers:
       alien-start:
         specifier: latest
         version: 0.0.0
-      is:
-        specifier: npm:@alloc/is@latest
-        version: '@alloc/is@3.1.6'
-      lodash:
-        specifier: npm:lodash-es@latest
-        version: lodash-es@4.17.21
       prettier:
         specifier: latest
         version: 3.2.5
-      type-fest:
-        specifier: latest
-        version: 4.18.3
       typescript:
         specifier: latest
         version: 5.4.5
@@ -58,9 +49,6 @@ packages:
 
   '@alien-dom/vite@0.9.1':
     resolution: {integrity: sha512-qtaGS/QmkTdw33p83HNh029cz9Xe/Avd9eR6KeCS2SU4UKGUxFWBOhxSacFVHrErx2VFKcSReQ79vL+7brCv4g==}
-
-  '@alloc/is@3.1.6':
-    resolution: {integrity: sha512-jA52vghZ/x+P95uNOYsXd4mpSu3BwB7+UVWXTfxJaxA8ViRxaZeCgw603536fO62eKxz6E6bP3ap39f4JyYnCg==}
 
   '@alloc/types@2.3.0':
     resolution: {integrity: sha512-20Az/TTgHkLG7qF6Y+0CPdv+RnKruv8TXgqX4qUcHYf8Qk6ZJykWhEpfybpiR51DyCQbQUuSbXpdnah+SamJ9w==}
@@ -394,9 +382,6 @@ packages:
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
 
-  lodash-es@4.17.21:
-    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
-
   magic-string@0.24.1:
     resolution: {integrity: sha512-YBfNxbJiixMzxW40XqJEIldzHyh5f7CZKalo1uZffevyrPEX8Qgo9s0dmcORLHdV47UyvJg8/zD+6hQG3qvJrA==}
 
@@ -488,10 +473,6 @@ packages:
       typescript:
         optional: true
 
-  type-fest@4.18.3:
-    resolution: {integrity: sha512-Q08/0IrpvM+NMY9PA2rti9Jb+JejTddwmwmVQGskAlhtcrw1wsRzoR6ode6mR+OAabNa75w/dxedSUY2mlphaQ==}
-    engines: {node: '>=16'}
-
   typescript@5.4.5:
     resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
     engines: {node: '>=14.17'}
@@ -558,8 +539,6 @@ snapshots:
       tsconfck: 3.1.0(typescript@5.4.5)
     transitivePeerDependencies:
       - typescript
-
-  '@alloc/is@3.1.6': {}
 
   '@alloc/types@2.3.0': {}
 
@@ -804,8 +783,6 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  lodash-es@4.17.21: {}
-
   magic-string@0.24.1:
     dependencies:
       sourcemap-codec: 1.4.8
@@ -892,8 +869,6 @@ snapshots:
   tsconfck@3.1.0(typescript@5.4.5):
     optionalDependencies:
       typescript: 5.4.5
-
-  type-fest@4.18.3: {}
 
   typescript@5.4.5: {}
 
