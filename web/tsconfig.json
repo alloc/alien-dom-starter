@@ -8,6 +8,7 @@
 		"jsx": "react-jsx",
 		"jsxImportSource": "alien-dom",
 		"lib": ["dom", "esnext"],
+		"target": "esnext",
 		"module": "esnext",
 		"moduleResolution": "bundler",
 		"noImplicitOverride": true,
